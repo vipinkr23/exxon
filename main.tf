@@ -23,6 +23,7 @@ resource "azurerm_resource_group" "rg-vips" {
 resource "azurerm_resource_group" "rg-vipsa" {
   name     = "vipintestsa"
   location = "West US"
+}
 
 resource "azurerm_resource_group" "rg-vips1" {
   name     = "vipintest2"
