@@ -20,5 +20,5 @@ resource "azurerm_resource_group" "rg-vips" {
 
 resource "azurerm_resource_group" "rg-vips1" {
   name     = "vipintest2"
-  location = "West US"
+  location = "East US"
   }
