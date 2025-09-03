@@ -16,4 +16,9 @@ resource "azurerm_resource_group" "rg-vips" {
   name     = "vipintest"
   location = "West US"
   }
+#Adding a new topic
 
+resource "azurerm_resource_group" "rg-vips1" {
+  name     = "vipintest2"
+  location = "East US"
+  }
