@@ -17,3 +17,9 @@ resource "azurerm_resource_group" "rg-vips" {
   location = "West US"
   }
 
+#Adding new RG Group (Sachin Singh)
+
+resource "azurerm_resource_group" "rg-vipsa" {
+  name     = "vipintestsa"
+  location = "West US"
+  }
