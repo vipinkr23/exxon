@@ -18,6 +18,12 @@ resource "azurerm_resource_group" "rg-vips" {
   }
 #Adding a new topic
 
+#Adding new RG Group (Sachin Singh)
+
+resource "azurerm_resource_group" "rg-vipsa" {
+  name     = "vipintestsa"
+  location = "West US"
+
 resource "azurerm_resource_group" "rg-vips1" {
   name     = "vipintest2"
   location = "East US"
