@@ -17,6 +17,10 @@ resource "azurerm_resource_group" "rg-vips" {
   location = "West US"
   }
 
+resource "azurerm_resource_group" "rg-vipss" {
+  name     = "vipintests"
+  location = "West US"
+  }
   resource "azurerm_resource_group" "rg-vipsG" {
   name     = "vipintestG"
   location = "West US"
